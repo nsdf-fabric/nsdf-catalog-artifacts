@@ -25,4 +25,3 @@ The following materials are included in this repository:
 
  * data - contains data used in the analysis and to generate the plots
  * notebooks - contains the analyis along with descriptions
- * notebooks/src - source code for helpers and utilities used by notebooks
