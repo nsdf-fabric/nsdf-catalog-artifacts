@@ -1,0 +1,46 @@
+,iteration,index_size,query,query_name,elapsed_seconds,num_result_rows
+0,0,1628179195,SELECT COUNT(*) FROM nsdf.catalog,count,0.0021039079992988263,1
+1,0,1628179195,SELECT SUM(size) FROM nsdf.catalog,sum,13.106332166999891,1
+2,0,1628179195,"SELECT catalog, COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY catalog",group_by_catalog,36.96078269999998,50
+3,0,1628179195,"SELECT bucket, any(catalog), COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY bucket",group_by_bucket,54.776113300999896,1143632
+4,0,1628179195,SELECT * FROM nsdf.catalog LIMIT 10,search_first_page,0.24361366200082557,10
+5,0,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%abc%' LIMIT 10,search_first_page_specific_10,1.1251704579999569,10
+6,0,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%bcd%' LIMIT 100,search_first_page_specific_100,1.0410266149992822,100
+7,0,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%cde%' LIMIT 1000,search_first_page_specific_1000,1.1129574010001306,1000
+8,0,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%def%' LIMIT 10000,search_first_page_specific_10000,1.202719194000565,10000
+9,1,1628179195,SELECT COUNT(*) FROM nsdf.catalog,count,0.006055772999388864,1
+10,1,1628179195,SELECT SUM(size) FROM nsdf.catalog,sum,13.045477761000257,1
+11,1,1628179195,"SELECT catalog, COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY catalog",group_by_catalog,36.581915685999775,50
+12,1,1628179195,"SELECT bucket, any(catalog), COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY bucket",group_by_bucket,54.820398897000814,1143632
+13,1,1628179195,SELECT * FROM nsdf.catalog LIMIT 10,search_first_page,0.24248323099982372,10
+14,1,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%abc%' LIMIT 10,search_first_page_specific_10,1.1137128099999245,10
+15,1,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%bcd%' LIMIT 100,search_first_page_specific_100,1.0202848930002801,100
+16,1,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%cde%' LIMIT 1000,search_first_page_specific_1000,1.156957579999471,1000
+17,1,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%def%' LIMIT 10000,search_first_page_specific_10000,1.1895197349995215,10000
+18,2,1628179195,SELECT COUNT(*) FROM nsdf.catalog,count,0.0038842989997647237,1
+19,2,1628179195,SELECT SUM(size) FROM nsdf.catalog,sum,12.985822231999919,1
+20,2,1628179195,"SELECT catalog, COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY catalog",group_by_catalog,34.62163590799992,50
+21,2,1628179195,"SELECT bucket, any(catalog), COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY bucket",group_by_bucket,54.635300033999556,1143632
+22,2,1628179195,SELECT * FROM nsdf.catalog LIMIT 10,search_first_page,0.24229683100020338,10
+23,2,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%abc%' LIMIT 10,search_first_page_specific_10,1.1039439229998607,10
+24,2,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%bcd%' LIMIT 100,search_first_page_specific_100,1.0088524660004623,100
+25,2,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%cde%' LIMIT 1000,search_first_page_specific_1000,1.1097760669999843,1000
+26,2,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%def%' LIMIT 10000,search_first_page_specific_10000,1.157669430000169,10000
+27,3,1628179195,SELECT COUNT(*) FROM nsdf.catalog,count,0.004756466000799264,1
+28,3,1628179195,SELECT SUM(size) FROM nsdf.catalog,sum,12.95903622500009,1
+29,3,1628179195,"SELECT catalog, COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY catalog",group_by_catalog,34.15507111700026,50
+30,3,1628179195,"SELECT bucket, any(catalog), COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY bucket",group_by_bucket,52.783432876000006,1143632
+31,3,1628179195,SELECT * FROM nsdf.catalog LIMIT 10,search_first_page,0.23861784499968053,10
+32,3,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%abc%' LIMIT 10,search_first_page_specific_10,1.1123014569993757,10
+33,3,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%bcd%' LIMIT 100,search_first_page_specific_100,1.0363446880000993,100
+34,3,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%cde%' LIMIT 1000,search_first_page_specific_1000,1.1223157410004205,1000
+35,3,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%def%' LIMIT 10000,search_first_page_specific_10000,1.2556075230004353,10000
+36,4,1628179195,SELECT COUNT(*) FROM nsdf.catalog,count,0.005060277000666247,1
+37,4,1628179195,SELECT SUM(size) FROM nsdf.catalog,sum,13.207523860000038,1
+38,4,1628179195,"SELECT catalog, COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY catalog",group_by_catalog,34.25565225799983,50
+39,4,1628179195,"SELECT bucket, any(catalog), COUNT(*), SUM(size) FROM nsdf.catalog GROUP BY bucket",group_by_bucket,52.20045409699924,1143632
+40,4,1628179195,SELECT * FROM nsdf.catalog LIMIT 10,search_first_page,0.23657224099952145,10
+41,4,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%abc%' LIMIT 10,search_first_page_specific_10,1.101374308999766,10
+42,4,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%bcd%' LIMIT 100,search_first_page_specific_100,1.026441827999406,100
+43,4,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%cde%' LIMIT 1000,search_first_page_specific_1000,1.1300650690000111,1000
+44,4,1628179195,SELECT * FROM nsdf.catalog WHERE name LIKE '%def%' LIMIT 10000,search_first_page_specific_10000,1.1691285970000536,10000
