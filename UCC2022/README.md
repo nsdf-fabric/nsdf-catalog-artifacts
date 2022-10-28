@@ -21,7 +21,7 @@ Ensure a Python environment with the dependencies listed in the requirements.txt
 
 ## Contents
 
-The following materials are included in this repository:
+The following materials are included in this directory:
 
  * data - contains data used in the analysis and to generate the plots
  * notebooks - contains the analyis along with descriptions
