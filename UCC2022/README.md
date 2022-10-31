@@ -3,7 +3,7 @@
 The artifacts in this folder supplement the following publication:
 
  * NSDF-Catalog: Lightweight Indexing Service for Democratizing Data Delivering - 
-Jakob Luettgau, Giorgio Scorzelli, Glenn Tarcea, Christine Kirkpatrick, Valerio Pascuccu, Michela Taufer
+Jakob Luettgau, Giorgio Scorzelli, Glenn Tarcea, Christine R. Kirkpatrick, Valerio Pascuccu, Michela Taufer
 at 5th IEEE/ACM International Conference on Utility and Cloud Computing (UCC2022)
 
 References and Links:
