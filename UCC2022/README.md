@@ -7,7 +7,6 @@ Jakob Luettgau, Giorgio Scorzelli, Glenn Tarcea, Christine Kirkpatrick, Valerio 
 at 5th IEEE/ACM International Conference on Utility and Cloud Computing (UCC2022)
 
 References and Links:
-* TODO: Link to DOI once published
 * NSDF-Catalog Github: https://github.com/nsdf-fabric/nsdf-catalog
 
 ## Pre-Requisites
